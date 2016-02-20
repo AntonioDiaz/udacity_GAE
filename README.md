@@ -6,6 +6,6 @@ My notes
  * Lesson 04
  * Lesson 05
  * Lesson 06
- * Final Project
+ * Final Project  
 --- 
 [Udacity course: https://www.udacity.com/course/developing-scalable-apps-in-java--ud859](https://www.udacity.com/course/developing-scalable-apps-in-java--ud859)
