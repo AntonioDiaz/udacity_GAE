@@ -1,7 +1,8 @@
 ### Exercises of Udacity course "Scalable apps in java"  
 ---  
 
-[https://www.udacity.com/course/developing-scalable-apps-in-java--ud859](https://www.udacity.com/course/developing-scalable-apps-in-java--ud859)
+[https://www.udacity.com/course/developing-scalable-apps-in-java--ud859](https://www.udacity.com/course/developing-scalable-apps-in-java--ud859)  
+Official respository: [https://github.com/udacity/ud859](https://github.com/udacity/ud859)
 
 My notes
  * Lesson 01 - SCALABILITY BASIC
