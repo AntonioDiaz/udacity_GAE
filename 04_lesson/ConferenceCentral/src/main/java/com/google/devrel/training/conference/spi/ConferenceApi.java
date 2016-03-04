@@ -11,8 +11,6 @@ import com.google.devrel.training.conference.Constants;
 import com.google.devrel.training.conference.domain.Profile;
 import com.google.devrel.training.conference.form.ProfileForm;
 import com.google.devrel.training.conference.form.ProfileForm.TeeShirtSize;
-import com.google.devrel.training.conference.service.OfyService;
-
 import com.googlecode.objectify.Key;
 
 /** Defines conference APIs. */
