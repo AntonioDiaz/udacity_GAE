@@ -28,58 +28,39 @@ public class Conference {
 
 	private static final List<String> DEFAULT_TOPICS = ImmutableList.of("Default", "Topic");
 
-	/**
-	 * The id for the datastore key.
-	 *
-	 * We use automatic id assignment for entities of Conference class.
-	 */
+	/** The id for the datastore key.
+	 * We use automatic id assignment for entities of Conference class.*/
 	@Id
 	private long id;
 
-	/**
-	 * The name of the conference.
-	 */
+	/** The name of the conference. */
 	@Index
 	private String name;
 
-	/**
-	 * The description of the conference.
-	 */
+	/** The description of the conference. */
 	private String description;
 
-	/**
-	 * Holds Profile key as the parent.
-	 */
+	/** Holds Profile key as the parent. */
 	@Parent
 	@ApiResourceProperty(ignored = AnnotationBoolean.TRUE)
 	private Key<Profile> profileKey;
 
-	/**
-	 * The userId of the organizer.
-	 */
+	/** The userId of the organizer. */
 	@ApiResourceProperty(ignored = AnnotationBoolean.TRUE)
 	private String organizerUserId;
 
-	/**
-	 * Topics related to this conference.
-	 */
+	/** Topics related to this conference. */
 	@Index
 	private List<String> topics;
 
-	/**
-	 * The name of the city that the conference takes place.
-	 */
+	/** The name of the city that the conference takes place. */
 	@Index(IfNotDefault.class)
 	private String city;
 
-	/**
-	 * The starting date of this conference.
-	 */
+	/** The starting date of this conference. */
 	private Date startDate;
 
-	/**
-	 * The ending date of this conference.
-	 */
+	/** The ending date of this conference. */
 	private Date endDate;
 
 	/**
@@ -90,21 +71,15 @@ public class Conference {
 	@Index
 	private int month;
 
-	/**
-	 * The maximum capacity of this conference.
-	 */
+	/** The maximum capacity of this conference. */
 	@Index
 	private int maxAttendees;
 
-	/**
-	 * Number of seats currently available.
-	 */
+	/** Number of seats currently available. */
 	@Index
 	private int seatsAvailable;
 
-	/**
-	 * Just making the default constructor private.
-	 */
+	/** Just making the default constructor private. */
 	@SuppressWarnings("unused")
 	private Conference() {
 	}
@@ -147,8 +122,7 @@ public class Conference {
 	/**
 	 * Returns organizer's display name.
 	 *
-	 * @return organizer's display name. If there is no Profile, return his/her
-	 *         userId.
+	 * @return organizer's display name. If there is no Profile, return his/her userId.
 	 */
 	public String getOrganizerDisplayName() {
 		// Profile organizer = ofy().load().key(Key.create(Profile.class,
