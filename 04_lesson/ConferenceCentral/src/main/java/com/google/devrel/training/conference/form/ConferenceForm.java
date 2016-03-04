@@ -44,7 +44,8 @@ public class ConferenceForm {
      */
     private int maxAttendees;
     
-    private ConferenceForm() {}
+    @SuppressWarnings("unused")
+	private ConferenceForm() {}
 
     /**
      * Public constructor is solely for Unit Test.

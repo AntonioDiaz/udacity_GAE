@@ -1,6 +1,5 @@
 package com.google.devrel.training.conference.domain;
 
-import com.google.devrel.training.conference.Constants;
 import com.google.devrel.training.conference.form.ProfileForm.TeeShirtSize;
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
@@ -52,6 +51,7 @@ public class Profile {
 	}
 
 	/** just making the default constructor private. */
+	@SuppressWarnings("unused")
 	private Profile() {
 	}
 
