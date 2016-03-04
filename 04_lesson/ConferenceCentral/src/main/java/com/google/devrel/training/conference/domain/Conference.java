@@ -18,9 +18,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Conference class stores conference information.
- */
+/** Conference class stores conference information. */
 @Entity
 public class Conference {
 
