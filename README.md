@@ -3,8 +3,6 @@
 
 [https://www.udacity.com/course/developing-scalable-apps-in-java--ud859](https://www.udacity.com/course/developing-scalable-apps-in-java--ud859)  
 
-<a href="https://www.udacity.com/course/developing-scalable-apps-in-java--ud859" target="_blank">https://www.udacity.com/course/developing-scalable-apps-in-java--ud859</a>
-
 Official respository: [https://github.com/udacity/ud859](https://github.com/udacity/ud859)
 
 My notes
