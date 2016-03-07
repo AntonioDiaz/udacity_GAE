@@ -15,7 +15,3 @@ My notes
  * Final Project  
 
 --- 
-
-
-
-antes <a href="https://www.udacity.com/course/developing-scalable-apps-in-java--ud859" target="_blank">https://www.udacity.com/course/developing-scalable-apps-in-java--ud859</a> despues
