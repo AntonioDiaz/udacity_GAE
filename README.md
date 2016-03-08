@@ -2,6 +2,7 @@
 ---  
 
 [https://www.udacity.com/course/developing-scalable-apps-in-java--ud859](https://www.udacity.com/course/developing-scalable-apps-in-java--ud859)  
+
 Official respository: [https://github.com/udacity/ud859](https://github.com/udacity/ud859)
 
 My notes
